@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/first_and_last_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mark"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/add_user" />
+    <Button
+        android:id="@+id/buttonRemoveUser"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/remove_user" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework2</string>
+    <string name="add_user">Add User</string>
+    <string name="remove_user">Remove User</string>
+    <string name="name">Name</string>
+    <string name="australia">Mark</string>
+    <string name="todo">TODO</string>
+    <string name="first_and_last_name">First And Last Name</string>
+    <string name="mark">Mark</string>
+</resources>
